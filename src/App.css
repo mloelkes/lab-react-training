@@ -1,38 +1,129 @@
 .App {
-  text-align: center;
+    padding: 20px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.id-card {
+    display: flex;
+    align-items: flex-start;
+    border: 1px solid #000;
+    margin: 20px 0;
+    padding: 6px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.id-card p {
+    margin:0 10px;
+    padding: 0;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.greetings {
+    border: 1px solid #000;
+    padding: 6px;
 }
 
-.App-link {
-  color: #61dafb;
+.random {
+    border: 1px solid #000;
+    padding: 6px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.boxColor {
+    padding: 30px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #000;
+}
+
+.creditCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 300px;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px 0;
+}
+
+.row-1-logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.row-2-card-number {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    color: #fff;
+    height: 60px;
+}
+
+.row-2-card-number div {
+    margin: 0 8px;
+}
+
+.row-3-details {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+}
+
+.row-3-row-1 {
+    display: flex;
+    flex-direction: row;
+}
+
+.row-3-row-1 p {
+    margin-right: 8px;
+}
+
+
+.creditCard img {
+    width: 60px;
+}
+
+.Rating p {
+    height: 20px;
+    font-size: 50px;
+}
+
+.DriverCard {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 200px;
+    background-color:rgb(71, 71, 173);
+    color: #fff;
+    border-radius: 20px;
+}
+
+.DriverCard .col-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.DriverCard h1 {
+    font-size: 24px;
+}
+
+.DriverCard p {
+    margin: 10px 0;
+}
+
+.DriverCard .Rating p {
+    font-size: 26px;
+    margin: 0;
+    padding: 0;
+    height: 40px;
+}
+
+.DriverCard img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
 }
